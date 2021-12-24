@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 /// </summary>
 namespace MyMessanger_Stepik21
 {
+    [Serializable]
 	public class Message
 	{
         public Message(string userName, string messageText, DateTime timeStamp)
