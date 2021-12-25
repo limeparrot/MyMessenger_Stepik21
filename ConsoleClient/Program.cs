@@ -13,9 +13,9 @@ namespace MyMessanger_Stepik21
         {
             Message msg = new Message("Georgiy", "hello, ", DateTime.UtcNow);
             string output = JsonConvert.SerializeObject(msg);
-            Console.WriteLine(output);//
+            Console.WriteLine(output);
             Message deserializedMsg = JsonConvert.DeserializeObject<Message>(output);
-            Console.WriteLine(deserializedMsg); Console.WriteLine(deserializedMsg);
+            Console.WriteLine(deserializedMsg);
         }
     }
 }
